@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NHT_Loading_Example' do
+  pod 'NHT_Loading', :path => '../'
+
+  target 'NHT_Loading_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
