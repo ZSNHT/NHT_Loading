@@ -1,0 +1,6 @@
+framework module NHT_Loading {
+  umbrella header "NHT_Loading-umbrella.h"
+
+  export *
+  module * { export * }
+}
